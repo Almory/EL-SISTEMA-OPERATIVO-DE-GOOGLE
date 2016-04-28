@@ -1,0 +1,481 @@
+%% BioMed_Central_Tex_Template_v1.06
+%%                                      %
+%  bmc_article.tex            ver: 1.06 %
+%                                       %
+
+%%IMPORTANT: do not delete the first line of this template
+%%It must be present to enable the BMC Submission system to
+%%recognise this template!!
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                     %%
+%%  LaTeX template for BioMed Central  %%
+%%     journal article submissions     %%
+%%                                     %%
+%%          <8 June 2012>              %%
+%%                                     %%
+%%                                     %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                 %%
+%% For instructions on how to fill out this Tex template           %%
+%% document please refer to Readme.html and the instructions for   %%
+%% authors page on the biomed central website                      %%
+%% http://www.biomedcentral.com/info/authors/                      %%
+%%                                                                 %%
+%% Please do not use \input{...} to include other tex files.       %%
+%% Submit your LaTeX manuscript as one .tex document.              %%
+%%                                                                 %%
+%% All additional figures and files should be attached             %%
+%% separately and not embedded in the \TeX\ document itself.       %%
+%%                                                                 %%
+%% BioMed Central currently use the MikTex distribution of         %%
+%% TeX for Windows) of TeX and LaTeX.  This is available from      %%
+%% http://www.miktex.org                                           %%
+%%                                                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% additional documentclass options:
+%  [doublespacing]
+%  [linenumbers]   - put the line numbers on margins
+
+%%% loading packages, author definitions
+
+%\documentclass[twocolumn]{bmcart}% uncomment this for twocolumn layout and comment line below
+\documentclass{bmcart}
+
+%%% Load packages
+%\usepackage{amsthm,amsmath}
+%\RequirePackage{natbib}
+%\RequirePackage[authoryear]{natbib}% uncomment this for author-year bibliography
+%\RequirePackage{hyperref}
+\usepackage[utf8]{inputenc} %unicode support
+%\usepackage[applemac]{inputenc} %applemac support if unicode package fails
+%\usepackage[latin1]{inputenc} %UNIX support if unicode package fails
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                             %%
+%%  If you wish to display your graphics for   %%
+%%  your own use using includegraphic or       %%
+%%  includegraphics, then comment out the      %%
+%%  following two lines of code.               %%
+%%  NB: These line *must* be included when     %%
+%%  submitting to BMC.                         %%
+%%  All figure files must be submitted as      %%
+%%  separate graphics through the BMC          %%
+%%  submission process, not included in the    %%
+%%  submitted article.                         %%
+%%                                             %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\def\includegraphic{}
+\def\includegraphics{}
+
+
+
+%%% Put your definitions there:
+\startlocaldefs
+\endlocaldefs
+
+
+%%% Begin ...
+\begin{document}
+
+%%% Start of article front matter
+\begin{frontmatter}
+
+\begin{fmbox}
+\dochead{Research}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter the title of your article here     %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Los sistema operativos para moviles.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter the authors here                   %%
+%%                                          %%
+%% Specify information, if available,       %%
+%% in the form:                             %%
+%%   <key>={<id1>,<id2>}                    %%
+%%   <key>=                                 %%
+%% Comment or delete the keys which are     %%
+%% not used. Repeat \author command as much %%
+%% as required.                             %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter the authors' addresses here        %%
+%%                                          %%
+%% Repeat \address commands as much as      %%
+%% required.                                %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter short notes here                   %%
+%%                                          %%
+%% Short notes will be after addresses      %%
+%% on first page.                           %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{artnotes}
+%\note{Sample of title note}     % note to the article
+\note[id=n1]{Equal contributor} % note, connected to author
+\end{artnotes}
+
+\end{fmbox}% comment this for two column layout
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% The Abstract begins here                 %%
+%%                                          %%
+%% Please refer to the Instructions for     %%
+%% authors on http://www.biomedcentral.com  %%
+%% and include the section headings         %%
+%% accordingly for your article type.       %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{abstractbox}
+
+\begin{abstract} % abstract
+	
+	El objetivo del articulo es dar a conocer el sistema operativo que hoy conocemos como "Android", que es comun mente utilizado por la mayoria de las personas, asi como dar a conocer la influencia del sistema operativo Android en el mundo de los dispositivos móviles inteligentes que en la actualidad han evolucionando de manera considerable.
+
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% The keywords begin here                  %%
+%%                                          %%
+%% Put each keyword in separate \kwd{}.     %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+% MSC classifications codes, if any
+%\begin{keyword}[class=AMS]
+%\kwd[Primary ]{}
+%\kwd{}
+%\kwd[; secondary ]{}
+%\end{keyword}
+
+\end{abstractbox}
+%
+%\end{fmbox}% uncomment this for twcolumn layout
+
+\end{frontmatter}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% The Main Body begins here                %%
+%%                                          %%
+%% Please refer to the instructions for     %%
+%% authors on:                              %%
+%% http://www.biomedcentral.com/info/authors%%
+%% and include the section headings         %%
+%% accordingly for your article type.       %%
+%%                                          %%
+%% See the Results and Discussion section   %%
+%% for details on how to create sub-sections%%
+%%                                          %%
+%% use \cite{...} to cite references        %%
+%%  \cite{koon} and                         %%
+%%  \cite{oreg,khar,zvai,xjon,schn,pond}    %%
+%%  \nocite{smith,marg,hunn,advi,koha,mouse}%%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%% start of article main body
+% <put your article body there>
+
+%%%%%%%%%%%%%%%%
+%% Background %%
+%%
+\newpage
+\section*{Introducción}
+
+Los sistemas operativos son muy comúnmente consocios hoy en día, porque cualquier persona ha tenido contacto con ellos, desde una computadora personal hasta algún dispositivo móvil e inclusive en algunos coches muy modernos, que cuentas con esta herramienta fundamental en la computación en informática.
+La información que estos manejan es muy rápido, que no tiene comparación con cualquier otra cosa, esto es gracias a la evolución del hardware, que ha tenido en las últimas décadas, enfocándose siempre a la superación de la velocidad de procesamiento, y en la sencilles de para poder utilizarlos. \\
+
+Tan solo 10 años los dispositivos moviles han ganado mucho terreno gracias a que son sencillo y faciles de utilizar con una interface grafica amigable con el usuario , esto demuestra que este tipo de tecnología evoluciona de manera considerable, muy rápidamente y constantemente tenemos nuevos avances en este campo de la tecnologia.\\
+
+Hoy en día hablamos de sistemas que están enfocados a darle una experiencia al usuario de su uso cotidiano, y dejar de lado los comandos puros de un sistema en esencia puramente la comunicación con los componentes físicos de la maquina han dejado de ser cosa que solo expertos conozcan y dar al público esta accesibilidad que hoy tenemos.\\
+
+El sistema operativo de Google "Android", no es la excepción, ya que se considera como unos de los sistemas operativos actuales en el mercado con muy alta demanda, una utilidad increible y un alto nivel de desarrollo para el futuro proximo.
+ %\cite{koon,oreg,khar,zvai,xjon,schn,pond,smith,marg,hunn,advi,koha,mouse}
+
+\newpage
+
+\section*{Definicion de un sistema operativo}
+
+ El sistema operativo es un grupo de programas de proceso con las rutinas de
+ control necesarias para mantener continuamente
+ operativos dichos programas.
+ 
+\subsection*{Objetivo primario de un sistema operativo:}
+
+El objetivo principal de un sistema operativo es optimizar todos los recursos del sistema para soportar los requerimientos que se le pidan.
+
+
+ 
+ 
+\section*{Sistemas Operativos para dispositivos móviles}
+ 
+ Existen varios de ellos, si bien las más extendidas son Symbian, BlackBerry
+ OS, Windows Mobile, y recientemente iPhone OS y el sistema móvil de Google,
+ Android, además por supuesto de los dispositivos con sistema operativo Linux.
+
+\subsection*{Symbian:}
+
+Este es el sistema operativo para móviles más extendido entre “smartphones”, y por
+tanto el que más aplicaciones para su sistema tiene desarrolladas. Actualmente
+Symbian copa más del 65 del mercado de sistemas operativos.
+
+\subsubsection*{Ventajas:}
+
+Su principal virtud es la capacidad que tiene el sistema para adaptar e integrar todo
+tipo de aplicaciones. Admite la integración de aplicaciones y, como sistema operativo,
+ofrece las rutinas, los protocolos de comunicación, el control de archivos y los
+servicios para el correcto funcionamiento de estas aplicaciones.
+
+\subsection*{Windows Mobile:}
+
+Windows Mobile es un sistema operativo escrito desde 0 y que hace uso de
+algunas convenciones de la interfaz de usuario del Windows de siempre.
+
+\subsubsection*{Ventajas:}
+
+Una de las ventajas de Windows Mobile sobre sus competidores es que los
+programadores pueden desarrollar aplicaciones para móviles utilizando los mismos
+lenguajes y entornos que emplean con Windows para PC. En comparación, las
+aplicaciones para Symbian necesitan más esfuerzo de desarrollo, aunque también
+están optimizadas para cada modelo de teléfono.
+
+
+\subsection*{Android:}
+
+Android es un sistema operativo móvil basado en Linux y Java que ha sido
+liberado bajo la licencia Apache versión 2.
+El sistema busca, nuevamente, un modelo estandarizado de programación que
+simplifique las labores de creación de aplicaciones móviles y normalice las
+herramientas en el campo de la telefonía móvil. 
+
+\subsubsection*{Ventajas:}
+
+Su principal ventaja es que los programadores sólo tengan que desarrollar sus creaciones
+una única vez y así ésta sea compatible con diferentes terminales gracias a la alta compatibilidad del leguage de programacion Java. 
+
+
+\subsection*{ iPhone OS:}
+
+Es una versión reducida de Mac OS X optimizada para los procesadores
+ARM. Aunque oficialmente no se puede instalar ninguna aplicación que no esté
+firmada por Apple ya existen formas de hacerlo, la vía oficial forma parte del iPhone
+Developer Program (de pago) y hay que descargar el SKD que es gratuito.
+
+\subsubsection*{Ventajas:}
+
+iPhone dispone de un interfaz de usuario realmente interesante, lo unico que no satisface es la
+cantidad de restricciones que tiene. para que iOS
+triunfe mucho más es mejor liberar y dar libertad a su sistema.
+
+
+\subsection*{ Blackberry OS:}
+
+BlackBerry es un sistema operativo multitarea que está arrasando en la escena
+empresarial, en especial por sus servicios para correo y teclado QWERTY.
+Actualmente BlackBerry OS cuenta con un 11% del mercado.
+
+\subsubsection*{Ventajas:}
+ Este sistema operativo incorpora múltiples aplicaciones y programas
+ que convierten a los dispositivos en completos organizadores de bolsillo con
+ funciones de calendario, libreta de direcciones, bloc de notas, lista de tareas, entre
+ otras.
+
+
+
+\newpage  
+
+\section*{“Smartphones” o teléfonos inteligentes}
+
+	Un “smartphone” (teléfono inteligente en español) es un dispositivo electrónico que
+	funciona como un teléfono móvil con características similares a las de una computadora
+	personal. Es como un equivalente entre un teléfono móvil clásico y una PDA
+	ya que permite hacer llamadas y enviar mensajes de texto como un móvil
+	convencional pero además incluye características cercanas a las de una computadora. 
+	Una característica importante de casi todos los teléfonos moviles es que
+	permiten la instalación de programas (aplicaciones) para incrementar el procesamiento de datos y la
+	conectividad. Estas aplicaciones pueden ser desarrolladas por el fabricante del
+	dispositivo, por el operador o por un tercero.
+	Los teléfonos inteligentes se distinguen por muchas características, entre las que
+	destacan las pantallas táctiles, un sistema operativo así como la conectividad a
+	Internet y el acceso al correo electrónico.
+
+  
+\subsection*{Sub-heading for section}
+Text for this sub-heading \ldots
+\subsubsection*{Sub-sub heading for section}
+Text for this sub-sub-heading \ldots
+\paragraph*{Sub-sub-sub heading for section}
+Text for this sub-sub-sub-heading \ldots
+In this section we examine the growth rate of the mean of $Z_0$, $Z_1$ and $Z_2$. In
+addition, we examine a common modeling assumption and note the
+importance of considering the tails of the extinction time $T_x$ in
+studies of escape dynamics.
+We will first consider the expected resistant population at $vT_x$ for
+some $v>0$, (and temporarily assume $\alpha=0$)
+%
+\[
+ E \bigl[Z_1(vT_x) \bigr]= E
+\biggl[\mu T_x\int_0^{v\wedge
+1}Z_0(uT_x)
+\exp \bigl(\lambda_1T_x(v-u) \bigr)\,du \biggr].
+\]
+%
+If we assume that sensitive cells follow a deterministic decay
+$Z_0(t)=xe^{\lambda_0 t}$ and approximate their extinction time as
+$T_x\approx-\frac{1}{\lambda_0}\log x$, then we can heuristically
+estimate the expected value as
+%
+\begin{eqnarray}\label{eqexpmuts}
+E\bigl[Z_1(vT_x)\bigr] &=& \frac{\mu}{r}\log x
+\int_0^{v\wedge1}x^{1-u}x^{({\lambda_1}/{r})(v-u)}\,du
+\nonumber\\
+&=& \frac{\mu}{r}x^{1-{\lambda_1}/{\lambda_0}v}\log x\int_0^{v\wedge
+1}x^{-u(1+{\lambda_1}/{r})}\,du
+\nonumber\\
+&=& \frac{\mu}{\lambda_1-\lambda_0}x^{1+{\lambda_1}/{r}v} \biggl(1-\exp \biggl[-(v\wedge1) \biggl(1+
+\frac{\lambda_1}{r}\biggr)\log x \biggr] \biggr).
+\end{eqnarray}
+%
+Thus we observe that this expected value is finite for all $v>0$ (also see \cite{koon,khar,zvai,xjon,marg}).
+%\nocite{oreg,schn,pond,smith,marg,hunn,advi,koha,mouse}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Backmatter begins here                   %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{backmatter}
+
+\section*{Competing interests}
+  The authors declare that they have no competing interests.
+
+\section*{Author's contributions}
+    Text for this section \ldots
+
+\section*{Acknowledgements}
+  Text for this section \ldots
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                  The Bibliography                       %%
+%%                                                         %%
+%%  Bmc_mathpys.bst  will be used to                       %%
+%%  create a .BBL file for submission.                     %%
+%%  After submission of the .TEX file,                     %%
+%%  you will be prompted to submit your .BBL file.         %%
+%%                                                         %%
+%%                                                         %%
+%%  Note that the displayed Bibliography will not          %%
+%%  necessarily be rendered by Latex exactly as specified  %%
+%%  in the online Instructions for Authors.                %%
+%%                                                         %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% if your bibliography is in bibtex format, use those commands:
+\bibliographystyle{bmc-mathphys} % Style BST file (bmc-mathphys, vancouver, spbasic).
+\bibliography{bmc_article}      % Bibliography file (usually '*.bib' )
+% for author-year bibliography (bmc-mathphys or spbasic)
+% a) write to bib file (bmc-mathphys only)
+% @settings{label, options="nameyear"}
+% b) uncomment next line
+%\nocite{label}
+
+% or include bibliography directly:
+% \begin{thebibliography}
+% \bibitem{b1}
+% \end{thebibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               %%
+%% Figures                       %%
+%%                               %%
+%% NB: this is for captions and  %%
+%% Titles. All graphics must be  %%
+%% submitted separately and NOT  %%
+%% included in the Tex document  %%
+%%                               %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%
+%% Do not use \listoffigures as most will included as separate files
+
+\section*{Figures}
+  \begin{figure}[h!]
+  \caption{\csentence{Sample figure title.}
+      A short description of the figure content
+      should go here.}
+      \end{figure}
+
+\begin{figure}[h!]
+  \caption{\csentence{Sample figure title.}
+      Figure legend text.}
+      \end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               %%
+%% Tables                        %%
+%%                               %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Use of \listoftables is discouraged.
+%%
+\section*{Tables}
+\begin{table}[h!]
+\caption{Sample table title. This is where the description of the table should go.}
+      \begin{tabular}{cccc}
+        \hline
+           & B1  &B2   & B3\\ \hline
+        A1 & 0.1 & 0.2 & 0.3\\
+        A2 & ... & ..  & .\\
+        A3 & ..  & .   & .\\ \hline
+      \end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               %%
+%% Additional Files              %%
+%%                               %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Additional Files}
+  \subsection*{Additional file 1 --- Sample additional file title}
+    Additional file descriptions text (including details of how to
+    view the file, if it is in a non-standard format or the file extension).  This might
+    refer to a multi-page table or a figure.
+
+  \subsection*{Additional file 2 --- Sample additional file title}
+    Additional file descriptions text.
+
+
+\end{backmatter}
+\end{document}
