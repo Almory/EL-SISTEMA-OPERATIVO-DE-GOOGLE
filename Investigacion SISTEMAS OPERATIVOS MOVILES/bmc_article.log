@@ -1,41 +1,36 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2016.5.10)  10 MAY 2016 22:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.19)  10 MAY 2016 23:08
 entering extended mode
-**"C:/Users/Jose Espinoza/Desktop/Nueva carpeta/bmc_article.bib"
-("C:/Users/Jose Espinoza/Desktop/Nueva carpeta/bmc_article.bib"
-Overfull \hbox (7.24603pt too wide) in paragraph at lines 9--15
-[]\tenrm @booktanenbaum1998sistemas, ti-tle=Sistemas op-er-a-tivos: dise~no e i
-m-ple-mentacion, au-thor=Tanenbaum,|
-
-\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
-.\hbox(0.0+0.0)x20.0
-.\tenrm @
-.\tenrm b
-.\kern0.27779
-.\tenrm o
-.etc.
-
-
-Overfull \hbox (7.21808pt too wide) in paragraph at lines 29--35
-[]\tenrm @articledel2009sistemas, ti-tle=Los sis-temas op-er-a-tivos de los sma
-rt-phone, au-thor=del Razo, Ciro Canales,|
-
-\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
-.\hbox(0.0+0.0)x20.0
-.\tenrm @
-.\tenrm a
-.\tenrm r
-.\tenrm t
-.etc.
-
+**bmc_article.tex
+(bmc_article.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 68 languages loaded.
+(bmcart.cls
+Document Class: bmcart 2014/01/24BioMed Central class (VS)
+("C:\Program Files\MikTex\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MikTex\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-*
-! Emergency stop.
-<*> ...noza/Desktop/Nueva carpeta/bmc_article.bib"
-                                                  
-End of file on the terminal!
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\mathindent=\dimen103
 
-!  ==> Fatal error occurred, no output PDF file produced!
-
+("C:\Program Files\MikTex\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MikTex\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
 ("C:\Program Files\MikTex\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
@@ -338,13 +333,9 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <13> not available
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <24> not available
 (Font)              size <24.88> substituted on input line 100.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 143.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 143.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 214.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 211.
 
 
 
@@ -355,47 +346,47 @@ Overfull \hbox (1.0pt too wide) has occurred while \output is active
 [1
 
 {C:/Users/Jose Espinoza/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
+Underfull \hbox (badness 10000) in paragraph at lines 215--217
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
 
 [2] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 362--373
+Underfull \hbox (badness 10000) in paragraph at lines 359--370
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 384--387
+Underfull \hbox (badness 10000) in paragraph at lines 381--384
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--392
+Underfull \hbox (badness 10000) in paragraph at lines 386--389
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--396
+Underfull \hbox (badness 10000) in paragraph at lines 390--393
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--400
+Underfull \hbox (badness 10000) in paragraph at lines 394--397
 
  []
 
@@ -408,11 +399,11 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 2244 strings out of 493698
- 27270 string characters out of 3145998
- 91149 words of memory out of 3000000
- 5596 multiletter control sequences out of 15000+200000
- 7037 words of font info for 25 fonts, out of 3000000 for 9000
+ 2236 strings out of 493698
+ 27147 string characters out of 3145998
+ 91141 words of memory out of 3000000
+ 5588 multiletter control sequences out of 15000+200000
+ 6737 words of font info for 24 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  30i,10n,37p,660b,237s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
@@ -421,7 +412,7 @@ x/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MikTex/fonts/type
 1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MikTex/fonts/type1/public/amsf
 onts/cm/cmssbx10.pfb><C:/Program Files/MikTex/fonts/type1/public/amsfonts/cm/cm
 ti10.pfb>
-Output written on bmc_article.pdf (7 pages, 102549 bytes).
+Output written on bmc_article.pdf (7 pages, 102300 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
