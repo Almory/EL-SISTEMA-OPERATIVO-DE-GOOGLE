@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{13}
+\begin{thebibliography}{10}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -43,169 +43,120 @@
 \csname PreBibitemsHook\endcsname
 
 %%% 1
-\bibitem{koon}
-\begin{barticle}
-\bauthor{\bsnm{Koonin}, \binits{E.V.}},
-\bauthor{\bsnm{Altschul}, \binits{S.F.}},
-\bauthor{\bsnm{Bork}, \binits{P.}}:
-\batitle{Brca1 protein products: functional motifs}.
-\bjtitle{Nat Genet}
-\bvolume{13},
-\bfpage{266}--\blpage{267}
-(\byear{1996})
-\end{barticle}
+\bibitem{tanenbaum1998sistemas}
+\begin{bbook}
+\bauthor{\bsnm{Tanenbaum}, \binits{A.S.}},
+\bauthor{\bsnm{Woodhull}, \binits{A.S.}}:
+\bbtitle{Sistemas Operativos: Dise{\~n}o e Implementaci{\'o}n}.
+\bpublisher{Martin Iturbide}, \blocation{???}
+(\byear{1998})
+\end{bbook}
 \endbibitem
 
 %%% 2
-\bibitem{khar}
+\bibitem{luis2001sistemas}
 \begin{botherref}
-\oauthor{\bsnm{Kharitonov}, \binits{S.A.}},
-\oauthor{\bsnm{Barnes}, \binits{P.J.}}:
-Clinical Aspects of Exhaled Nitric Oxide.
-in press
+\oauthor{\bsnm{LUIS}, \binits{E.D.}},
+\oauthor{\bsnm{LA~RED}, \binits{M.}},
+\oauthor{\bsnm{DE}, \binits{T.O.}}:
+Sistemas Operativos.
+Universidad Nacional del Nordeste, Argentina
+(2001)
 \end{botherref}
 \endbibitem
 
 %%% 3
-\bibitem{zvai}
-\begin{barticle}
-\bauthor{\bsnm{Zvaifler}, \binits{N.J.}},
-\bauthor{\bsnm{Burger}, \binits{J.A.}},
-\bauthor{\bsnm{Marinova-Mutafchieva}, \binits{L.}},
-\bauthor{\bsnm{Taylor}, \binits{P.}},
-\bauthor{\bsnm{Maini}, \binits{R.N.}}:
-\batitle{Mesenchymal cells, stromal derived factor-1 and rheumatoid arthritis
-  [abstract]}.
-\bjtitle{Arthritis Rheum}
-\bvolume{42},
-\bfpage{250}
-(\byear{1999})
-\end{barticle}
+\bibitem{del2009sistemas}
+\begin{botherref}
+\oauthor{\bparticle{del} \bsnm{Razo}, \binits{C.C.}}:
+Los sistemas operativos de los smartphone
+(2009)
+\end{botherref}
 \endbibitem
 
 %%% 4
-\bibitem{xjon}
-\begin{bchapter}
-\bauthor{\bsnm{Jones}, \binits{X.}}:
-\bctitle{Zeolites and synthetic mechanisms}.
-In: \beditor{\bsnm{Smith}, \binits{Y.}} (ed.)
-\bbtitle{Proceedings of the First National Conference on Porous Sieves: 27-30
-  June 1996; Baltimore},
-pp. \bfpage{16}--\blpage{27}
-(\byear{1996}).
-\bcomment{Stoneham: Butterworth-Heinemann}
-\end{bchapter}
-\endbibitem
-
-%%% 5
-\bibitem{marg}
+\bibitem{tanenbaum2003sistemas}
 \begin{bbook}
-\bauthor{\bsnm{Margulis}, \binits{L.}}:
-\bbtitle{Origin of Eukaryotic Cells}.
-\bpublisher{Yale University Press},
-\blocation{New Haven}
-(\byear{1970})
+\bauthor{\bsnm{Tanenbaum}, \binits{A.S.}},
+\bauthor{\bsnm{Garc{\'\i}a}, \binits{R.E.}}:
+\bbtitle{Sistemas Operativos Modernos}.
+\bpublisher{Pearson Educaci{\'o}n}, \blocation{???}
+(\byear{2003})
 \end{bbook}
 \endbibitem
 
+%%% 5
+\bibitem{alonsodispositivos}
+\begin{botherref}
+\oauthor{\bsnm{Alonso}, \binits{A.B.}},
+\oauthor{\bsnm{Artime}, \binits{I.F.}},
+\oauthor{\bsnm{Rodr{\'\i}guez}, \binits{M.{\'A}.}},
+\oauthor{\bsnm{Baniello}, \binits{R.G.}}:
+Dispositivos m{\'o}viles.
+EPSIG Ing. Telecomunicaci{\'o}n Universidad de Oviedo
+\end{botherref}
+\endbibitem
+
 %%% 6
-\bibitem{oreg}
-\begin{barticle}
-\bauthor{\bsnm{Orengo}, \binits{C.A.}},
-\bauthor{\bsnm{Bray}, \binits{J.E.}},
-\bauthor{\bsnm{Hubbard}, \binits{T.}},
-\bauthor{\bsnm{LoConte}, \binits{L.}},
-\bauthor{\bsnm{Sillitoe}, \binits{I.}}:
-\batitle{Analysis and assessment of ab initio three-dimensional prediction,
-  secondary structure, and contacts prediction}.
-\bjtitle{Proteins}
-\bvolume{Suppl 3},
-\bfpage{149}--\blpage{170}
-(\byear{1999})
-\end{barticle}
+\bibitem{polanco2011android}
+\begin{botherref}
+\oauthor{\bsnm{Polanco}, \binits{K.M.}},
+\oauthor{\bsnm{Taibo}, \binits{J.L.B.}}:
+" android" el sistema operativo de google para dispositivos m{\'o}viles
+(2011)
+\end{botherref}
 \endbibitem
 
 %%% 7
-\bibitem{schn}
-\begin{bchapter}
-\bauthor{\bsnm{Schnepf}, \binits{E.}}:
-\bctitle{From prey via endosymbiont to plastids: comparative studies in
-  dinoflagellates}.
-In: \beditor{\bsnm{Lewin}, \binits{R.A.}} (ed.)
-\bbtitle{Origins of Plastids}
-vol. \bseriesno{2},
-\bedition{2nd} edn.,
-pp. \bfpage{53}--\blpage{76}.
-\bpublisher{Chapman and Hall},
-\blocation{New York}
-(\byear{1993})
-\end{bchapter}
+\bibitem{herraiz2012android}
+\begin{botherref}
+\oauthor{\bsnm{Herraiz~Ant{\'o}n}, \binits{G.}}:
+Android
+(2012)
+\end{botherref}
 \endbibitem
 
 %%% 8
-\bibitem{pond}
+\bibitem{baez1997introduccion}
 \begin{botherref}
-Innovative Oncology
+\oauthor{\bsnm{B{\'a}ez}, \binits{M.}},
+\oauthor{\bsnm{Borrego}, \binits{{\'A}.}},
+\oauthor{\bsnm{Cordero}, \binits{J.}},
+\oauthor{\bsnm{Cruz}, \binits{L.}},
+\oauthor{\bsnm{Gonz{\'a}lez}, \binits{M.}},
+\oauthor{\bsnm{Hern{\'a}ndez}, \binits{F.}},
+\oauthor{\bsnm{Palomero}, \binits{D.}},
+\oauthor{\bparticle{de} \bsnm{Llera}, \binits{J.R.}},
+\oauthor{\bsnm{Sanz}, \binits{D.}},
+\oauthor{\bsnm{Saucedo}, \binits{M.}}, et al.:
+Introducci{\'o}n a Android.
+htt p://pendientedemigracion. ucm. es/info/tecnomovil/documentos/android.
+  pdf>>(Consulta realizada 5 de noviembre de 2013). Ed. L{\'o}pez V. y Grupo
+  Tecnolog{\'\i}a UCM. Madrid, Espa{\~n}a
+(1997)
 \end{botherref}
 \endbibitem
 
 %%% 9
-\bibitem{smith}
-\begin{bbook}
-\beditor{\bsnm{Smith}, \binits{Y.}} (ed.):
-\bbtitle{Proceedings of the First National Conference on Porous Sieves: 27-30
-  June 1996; Baltimore}.
-\bpublisher{Butterworth-Heinemann},
-\blocation{Stoneham}
-(\byear{1996})
-\end{bbook}
+\bibitem{vanegas2014android}
+\begin{barticle}
+\bauthor{\bsnm{Vanegas}, \binits{C.A.}}:
+\batitle{Android?.... de qu{\'e} me hablan}.
+\bjtitle{V{\'\i}nculos}
+\bvolume{11}(\bissue{1}),
+\bfpage{162}--\blpage{171}
+(\byear{2014})
+\end{barticle}
 \endbibitem
 
 %%% 10
-\bibitem{hunn}
-\begin{bchapter}
-\bauthor{\bsnm{Hunninghake}, \binits{G.W.}},
-\bauthor{\bsnm{Gadek}, \binits{J.E.}}:
-\bctitle{The alveloar macrophage}.
-In: \beditor{\bsnm{Harris}, \binits{T.J.R.}} (ed.)
-\bbtitle{Cultured Human Cells and Tissues},
-pp. \bfpage{54}--\blpage{56}.
-\bpublisher{Academic Press},
-\blocation{New York}
-(\byear{1995}).
-\bcomment{Stoner G (Series Editor): Methods and Perspectives in Cell Biology,
-  vol 1}
-\end{bchapter}
-\endbibitem
-
-%%% 11
-\bibitem{advi}
-\begin{botherref}
-Advisory Committee on Genetic Modification:
-Annual Report.
-London
-(1999).
-Advisory Committee on Genetic Modification
-\end{botherref}
-\endbibitem
-
-%%% 12
-\bibitem{koha}
-\begin{botherref}
-\oauthor{\bsnm{Kohavi}, \binits{R.}}:
-Wrappers for performance enhancement and obvious decision graphs.
-PhD thesis,
-Stanford University, Computer Science Department
-(1995)
-\end{botherref}
-\endbibitem
-
-%%% 13
-\bibitem{mouse}
-\begin{botherref}
-The Mouse Tumor Biology Database.
-\url{http://tumor.informatics.jax.org/cancer\_links.html}
-\end{botherref}
+\bibitem{benbourahala2013android}
+\begin{bbook}
+\bauthor{\bsnm{Benbourahala}, \binits{N.}}:
+\bbtitle{Android 4: Principios del Desarrollo de Aplicaciones Java}.
+\bpublisher{Ediciones ENI}, \blocation{???}
+(\byear{2013})
+\end{bbook}
 \endbibitem
 
 \end{thebibliography}
@@ -217,155 +168,118 @@ The Mouse Tumor Biology Database.
 <refgrp>
 
 <bibl id="B1">
-  <title><p>BRCA1 protein products: functional motifs</p></title>
+  <title><p>Sistemas operativos: dise{\~n}o e implementaci{\'o}n</p></title>
   <aug>
-    <au><snm>Koonin</snm><fnm>E V</fnm></au>
-    <au><snm>Altschul</snm><fnm>S F</fnm></au>
-    <au><snm>Bork</snm><fnm>P</fnm></au>
+    <au><snm>Tanenbaum</snm><fnm>AS</fnm></au>
+    <au><snm>Woodhull</snm><fnm>AS</fnm></au>
   </aug>
-  <source>Nat Genet</source>
-  <pubdate>1996</pubdate>
-  <volume>13</volume>
-  <fpage>266</fpage>
-  <lpage>267</lpage>
+  <publisher>Martin Iturbide</publisher>
+  <pubdate>1998</pubdate>
 </bibl>
 
 <bibl id="B2">
-  <title><p>Clinical aspects of exhaled nitric oxide</p></title>
+  <title><p>Sistemas Operativos</p></title>
   <aug>
-    <au><snm>Kharitonov</snm><fnm>S A</fnm></au>
-    <au><snm>Barnes</snm><fnm>P J</fnm></au>
+    <au><snm>LUIS</snm><fnm>EXPTO DAVID</fnm></au>
+    <au><snm>LA RED</snm><fnm>MARTINEZ</fnm></au>
+    <au><snm>DE</snm><fnm>TITULAR ORDINARIO</fnm></au>
   </aug>
-  <source>Eur Respir J</source>
-  <inpress />
+  <publisher>Universidad Nacional del Nordeste, Argentina</publisher>
+  <pubdate>2001</pubdate>
 </bibl>
 
 <bibl id="B3">
-  <title><p>Mesenchymal cells, stromal derived factor-1 and rheumatoid
-  arthritis [abstract]</p></title>
+  <title><p>Los sistemas operativos de los smartphone</p></title>
   <aug>
-    <au><snm>Zvaifler</snm><fnm>N J</fnm></au>
-    <au><snm>Burger</snm><fnm>J A</fnm></au>
-    <au><snm>Marinova Mutafchieva</snm><fnm>L</fnm></au>
-    <au><snm>Taylor</snm><fnm>P</fnm></au>
-    <au><snm>Maini</snm><fnm>R N</fnm></au>
+    <au><snm>Razo</snm><fnm>CC</fnm></au>
   </aug>
-  <source>Arthritis Rheum</source>
-  <pubdate>1999</pubdate>
-  <volume>42</volume>
-  <fpage>s250</fpage>
+  <publisher>suite101. net</publisher>
+  <pubdate>2009</pubdate>
 </bibl>
 
 <bibl id="B4">
-  <title><p>Zeolites and synthetic mechanisms</p></title>
+  <title><p>Sistemas operativos modernos</p></title>
   <aug>
-    <au><snm>Jones</snm><fnm>X</fnm></au>
+    <au><snm>Tanenbaum</snm><fnm>AS</fnm></au>
+    <au><snm>Garc{\'\i}a</snm><fnm>RE</fnm></au>
   </aug>
-  <source>Proceedings of the First National Conference on Porous Sieves: 27-30
-  June 1996; Baltimore</source>
-  <editor>Y Smith</editor>
-  <pubdate>1996</pubdate>
-  <fpage>16</fpage>
-  <lpage>27</lpage>
+  <publisher>Pearson Educaci{\'o}n</publisher>
+  <pubdate>2003</pubdate>
 </bibl>
 
 <bibl id="B5">
-  <title><p>Origin of Eukaryotic Cells</p></title>
+  <title><p>Dispositivos m{\'o}viles</p></title>
   <aug>
-    <au><snm>Margulis</snm><fnm>L</fnm></au>
+    <au><snm>Alonso</snm><fnm>AB</fnm></au>
+    <au><snm>Artime</snm><fnm>IF</fnm></au>
+    <au><snm>Rodr{\'\i}guez</snm><fnm>M{\'A}</fnm></au>
+    <au><snm>Baniello</snm><fnm>RG</fnm></au>
   </aug>
-  <publisher>New Haven: Yale University Press</publisher>
-  <pubdate>1970</pubdate>
+  <source>EPSIG Ing. Telecomunicaci{\'o}n Universidad de Oviedo</source>
 </bibl>
 
 <bibl id="B6">
-  <title><p>Analysis and assessment of ab initio three-dimensional prediction,
-  secondary structure, and contacts prediction</p></title>
+  <title><p>" Android" el sistema operativo de Google para dispositivos
+  m{\'o}viles</p></title>
   <aug>
-    <au><snm>Orengo</snm><fnm>C A</fnm></au>
-    <au><snm>Bray</snm><fnm>J E</fnm></au>
-    <au><snm>Hubbard</snm><fnm>T</fnm></au>
-    <au><snm>LoConte</snm><fnm>L</fnm></au>
-    <au><snm>Sillitoe</snm><fnm>I</fnm></au>
+    <au><snm>Polanco</snm><fnm>KM</fnm></au>
+    <au><snm>Taibo</snm><fnm>JLB</fnm></au>
   </aug>
-  <source>Proteins</source>
-  <pubdate>1999</pubdate>
-  <volume>Suppl 3</volume>
-  <fpage>149</fpage>
-  <lpage>170</lpage>
+  <publisher>Fundaci{\'o}n Miguel Unamuno y Jugo</publisher>
+  <pubdate>2011</pubdate>
 </bibl>
 
 <bibl id="B7">
-  <title><p>From prey via endosymbiont to plastids: comparative studies in
-  dinoflagellates</p></title>
+  <title><p>ANDROID</p></title>
   <aug>
-    <au><snm>Schnepf</snm><fnm>E</fnm></au>
+    <au><snm>Herraiz Ant{\'o}n</snm><fnm>G</fnm></au>
   </aug>
-  <source>Origins of Plastids</source>
-  <publisher>New York: Chapman and Hall</publisher>
-  <editor>R A Lewin</editor>
-  <edition>2</edition>
-  <pubdate>1993</pubdate>
-  <volume>2</volume>
-  <fpage>53</fpage>
-  <lpage>76</lpage>
+  <pubdate>2012</pubdate>
 </bibl>
 
 <bibl id="B8">
-  <title><p>Innovative oncology</p></title>
-  <source>Breast Cancer Res</source>
-  <editor>B Ponder and S Johnston and L Chodosh</editor>
-  <pubdate>1998</pubdate>
-  <volume>10</volume>
-  <fpage>1</fpage>
-  <lpage>72</lpage>
+  <title><p>Introducci{\'o}n a Android</p></title>
+  <aug>
+    <au><snm>B{\'a}ez</snm><fnm>M</fnm></au>
+    <au><snm>Borrego</snm><fnm>{\'A}</fnm></au>
+    <au><snm>Cordero</snm><fnm>J</fnm></au>
+    <au><snm>Cruz</snm><fnm>L</fnm></au>
+    <au><snm>Gonz{\'a}lez</snm><fnm>M</fnm></au>
+    <au><snm>Hern{\'a}ndez</snm><fnm>F</fnm></au>
+    <au><snm>Palomero</snm><fnm>D</fnm></au>
+    <au><snm>Llera</snm><fnm>JR</fnm></au>
+    <au><snm>Sanz</snm><fnm>D</fnm></au>
+    <au><snm>Saucedo</snm><fnm>M</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <publisher>htt p://pendientedemigracion. ucm.
+  es/info/tecnomovil/documentos/android. pdf>>(Consulta realizada 5 de
+  noviembre de 2013). Ed. L{\'o}pez V. y Grupo Tecnolog{\'\i}a UCM. Madrid,
+  Espa{\~n}a</publisher>
+  <pubdate>1997</pubdate>
 </bibl>
 
 <bibl id="B9">
-  <title><p>Proceedings of the First National Conference on Porous Sieves:
-  27-30 June 1996; Baltimore</p></title>
-  <publisher>Stoneham: Butterworth-Heinemann</publisher>
-  <editor>Y Smith</editor>
-  <pubdate>1996</pubdate>
+  <title><p>Android?.... De qu{\'e} me hablan</p></title>
+  <aug>
+    <au><snm>Vanegas</snm><fnm>CA</fnm></au>
+  </aug>
+  <source>V{\'\i}nculos</source>
+  <pubdate>2014</pubdate>
+  <volume>11</volume>
+  <issue>1</issue>
+  <fpage>162</fpage>
+  <lpage>-171</lpage>
 </bibl>
 
 <bibl id="B10">
-  <title><p>The alveloar macrophage</p></title>
+  <title><p>Android 4: Principios del desarrollo de aplicaciones
+  Java</p></title>
   <aug>
-    <au><snm>Hunninghake</snm><fnm>G W</fnm></au>
-    <au><snm>Gadek</snm><fnm>J E</fnm></au>
+    <au><snm>Benbourahala</snm><fnm>N</fnm></au>
   </aug>
-  <source>Cultured Human Cells and Tissues</source>
-  <publisher>New York: Academic Press</publisher>
-  <editor>T J R Harris</editor>
-  <pubdate>1995</pubdate>
-  <fpage>54</fpage>
-  <lpage>56</lpage>
-  <note>Stoner G (Series Editor): Methods and Perspectives in Cell Biology, vol
-  1</note>
-</bibl>
-
-<bibl id="B11">
-  <title><p>Annual Report</p></title>
-  <aug><au><cnm>Advisory Committee on Genetic Modification</cnm></au></aug>
-  <publisher>London</publisher>
-  <pubdate>1999</pubdate>
-</bibl>
-
-<bibl id="B12">
-  <title><p>Wrappers for performance enhancement and obvious decision
-  graphs</p></title>
-  <aug>
-    <au><snm>Kohavi</snm><fnm>R</fnm></au>
-  </aug>
-  <source>PhD thesis</source>
-  <publisher>Stanford University, Computer Science Department</publisher>
-  <pubdate>1995</pubdate>
-</bibl>
-
-<bibl id="B13">
-  <title><p>The Mouse Tumor Biology Database</p></title>
-  <url>http://tumor.informatics.jax.org/cancer\_links.html</url>
+  <publisher>Ediciones ENI</publisher>
+  <pubdate>2013</pubdate>
 </bibl>
 
 </refgrp>
